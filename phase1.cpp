@@ -34,6 +34,7 @@ int main() {
     cout << "Program Loaded." << endl;
     printMemory();
     startExecution();
+    printMemory();
     cout << "Execution Complete." << endl;
     return 0;
 }
@@ -202,7 +203,6 @@ void readData(string operand) {
     }
     fin.close();
     SI = 0;
-    printMemory();
 }
 
 void writeData(string operand) {
